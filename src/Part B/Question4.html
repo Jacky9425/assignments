@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            html, body {
+                height: 100%;
+            }
+            .container {
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row;
+                min-height: 100%;
+            }
+
+            .container > div {
+                display: flex;
+                flex-basis: 25%;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .container > div > div {
+                width: 150px;
+                height: 150px;
+            }
+
+            .colored {
+                background-color: navy;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <div><div class="colored"></div></div>
+            <div><div class="colored"></div></div>
+            <div><div class="colored"></div></div>
+            <div><div></div></div>
+            <div><div class="colored"></div></div>
+            <div><div class="colored"></div></div>
+            <div><div class="colored"></div></div>
+            <div><div></div></div>
+            <div><div></div></div>
+            <div><div></div></div>
+            <div><div></div></div>
+            <div><div></div></div>
+            <div><div></div></div>
+            <div><div></div></div>
+            <div><div></div></div>
+            <div><div class="colored"></div></div>
+        </div>
+    </body>
+</html>
